@@ -1,0 +1,286 @@
+
+section{
+  width: 100%;
+  height: 100vh;
+  
+}
+
+header{
+  background-color: #3700B4;
+  width: 100%;
+  height: 6rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+header input{
+  width: 50%;
+  height: 3rem;
+  text-align: left;
+  padding-left: 1rem;
+  font-size: 1rem;
+  outline: none;
+  font-family: 'Inter',sans-serif;
+  border-style: solid;
+  border: 1px solid #5B5F64;
+  border-right: none;
+}
+
+.searchIconContainer{
+  background-color: rgb(255, 255, 255);
+  width: 2.5em;
+  height: 3rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid #5B5F64;
+  border-left: none;
+  cursor: pointer;
+}
+
+
+
+::placeholder{
+  color: rgb(126, 132, 138);
+}
+
+.crudContainer{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  padding-top: 4rem;
+}
+
+
+
+/* crud*/
+
+.boxList {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.pencilicon {
+  border-style: none;
+}
+
+.styleButtonEdit button {
+  margin-right: 0.5rem;
+  cursor: pointer;
+  padding: 0.5rem;
+  border-width: 3px;
+  border-radius: 0.3rem;
+  border-style: solid;
+}
+
+.borderRed{
+  display: flex;
+  align-items: center;
+  border-color: #FF5864;
+  color: #FF5864;
+  font-family: 'Inter',sans-serif;
+}
+
+.borderRed p{
+  padding-left: 0.1rem;
+}
+.borderViolet p{
+  padding-left: 0.1rem;
+}
+
+.createUser button{
+  display: flex;
+  align-items: center;
+  margin-top: 1rem;
+  padding: 0.7rem 1.5rem;
+  border-radius: 0.7rem;
+  background-color: #8025FF;
+  color: white;
+  font-family: 'Inter',sans-serif;
+  border-style: none;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.createUser p{
+  padding-left: 0.2rem;
+}
+
+.borderViolet{
+  display: flex;
+  align-items: center;
+  border-color: #8025FF;
+  color: #8025FF;
+  font-family: 'Inter',sans-serif;
+}
+
+.containerTitleView{
+  width: auto;
+    display: inline-block;
+}
+
+
+
+.titleboxlist  {
+  width: 90%;
+  height: 4rem;
+  background-color: #3700B4;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  padding: 0 2rem;
+  justify-content: space-between;
+  
+  
+}
+
+.titleboxlist tbody{
+  
+  width: 100%;
+}
+
+.titleboxlist tr{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+
+
+table .contentBoxList {
+  width: 100%;
+  height: 3rem;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  padding: 0px;
+  cursor: pointer;
+  border-radius: 0.3rem;
+  font-family: 'Inter', sans-serif;
+  padding-right: 3.5rem;
+  color: white;
+}
+
+table .contentBoxList p {
+  padding-left: 0.2rem;
+}
+
+
+
+.contentBoxView tr {
+  background-color: rgb(255, 255, 255);
+  margin-top: 1rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+
+.tableVacancies {
+  width: 100%;
+
+}
+
+.viewContainer {
+  background-color: #ecedf5;
+  width: 90%;
+  height: auto;
+  padding: 0.5rem 1rem;
+}
+
+.viewContainer:last-child{
+ 
+  padding-bottom: 1rem;
+}
+
+.contentBoxList tr {
+  display: flex;
+}
+
+.gapTitle {
+  padding-left: 0.7rem;
+  word-wrap: break-word;
+}
+
+.styleDate {
+  width: 100%;
+  padding-left: 3rem;
+}
+
+.styleTitle {
+  width: 90%;
+  padding-left: 1rem;
+}
+
+.styleTitle p {
+  color: #333333;
+  font-weight: 500;
+}
+
+.styleId {
+  color: #000000;
+  font-weight: 600;
+}
+
+.boxContVacancies {
+  background-color: rgb(255, 255, 255);
+  display: flex;
+  align-items: center;
+  width: 100%;
+  padding: 0.8rem;
+  margin-top: 0.5rem;
+  word-wrap: break-word;
+  border-radius: 0.3rem;  
+}
+
+
+
+.textSizeView {
+  font-size: 1.8rem;
+}
+
+.dateStyle {
+  font-family: 'Inter', sans-serif;
+  color: black;
+  font-weight: 700;
+}
+
+.contentBoxList tr {
+  border-radius: 0.3rem;
+
+  width: 100%;
+}
+
+.contentBoxView tr td p {
+  color: #333333;
+}
+
+.titleboxlist td p {
+  color: white;
+  font-weight: 600;
+  font-size: 1rem;
+}
+
+.titleboxlist td {
+  align-items: center;
+  display: flex;
+ 
+}
+
+.styleButtonEdit {
+  display: flex;
+  justify-content: end;
+}
+
+.styleButtonEdit button {
+  background: none;
+}
+
+.bgpath {
+  background: none;
+}
+
+
